@@ -153,6 +153,7 @@ try {
 
 } catch (e) {
   console.log(
-    'This transfer is failing because the mint is non-transferable', e
+    'This transfer is failing because the mint is non-transferable',
+    // e
   )
 }
